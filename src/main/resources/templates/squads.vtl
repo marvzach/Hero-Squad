@@ -1,0 +1,26 @@
+<div class="jumbotron squ">
+<div class="con">
+  <h1 class="display-3">All Squads</h1>
+  <br>
+  <!-- <ul>
+    #foreach ($squad in $squads)
+      <li><a href="/squads/$squad.getId()">$squad.getName()</a></li>
+    #end
+  </ul>
+  <br> -->
+
+  <div class="list-group">
+    #foreach ($squad in $squads)
+      <a href="/squads/$squad.getId()" class="list-group-item list-group-item-action flex-column align-items-start">
+        <div class="">
+        <p class="mb-1 mission"> MISSION :$squad.getCause()</p>
+            <h4 class="list-group-item-heading">$squad.getName() <span class="badge">$squad.getHeroes().size()</span></h4>
+            <small>$squad.getSize() is the max number of heroes</small>
+        </div>
+      </a>
+    #end
+  </div>
+
+  <p><a href="/squads/new" class="btn btn-lg btn-unique">Add New Squad</a></p>
+</div>
+</div>
