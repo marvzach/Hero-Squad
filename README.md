@@ -1,9 +1,9 @@
 # HERO SQUAD 
-Hero squad is a web java application that allows users to fill in squads of superheroes with their powers, weaknesses and squad missions. Users decide the size of their squads and fill in their favorite heroes.
+Hero squad is a web java app that allows you to recruit a well-balanced team of superheroes and assigning them Special powers and their weaknesses.
 
 ## BDD
-1. Users must fill in the squad names, maximum size and mission.
-2. Users can't add more heroes than the maximum size.
+1. You must fill in the squad names, maximum size and mission.
+2. You can't add more heroes than the maximum size.
 3. Heroes can only appear once, users ca't fill in a siingle hero in the same or different squads.
 
 ## Setup
@@ -15,15 +15,16 @@ Hero squad is a web java application that allows users to fill in squads of supe
 ## Dependencies
 1. Java
 2. Gradle
-3. Material Design
+
 
 ## Technologies Used
 1. Java
 2. HTML
 3. CSS
+4. Material Design
 
 ## Author and Contact Information
-Written by [Marvin Zacharyl](https://github.com/marvzach). Email: vickiekross99@gmail.com.
+Written by [Marvin Zachary](https://github.com/marvzach). Email: acerzach@gmail.com.
 
 ## Licence
 Licenced under The MIT Licence (refer to the licence file) Copyright(c) 2019 Marvin Zachary.
