@@ -1,5 +1,5 @@
-body {
-  font-family: 'Handlee', cursive;
+/* body {
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .header {
@@ -48,6 +48,38 @@ body {
   font-size: 40px;
   color: blue;
 }
-.ok{
+
+.squ {
+  background-image: url('https://images4.alphacoders.com/975/975294.jpg');
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  color: white;
+  opacity: 0.7;
+  filter: alpha(opacity=100);
 
 }
+
+.newHero {
+  background-image: url('https://images4.alphacoders.com/975/975294.jpg');
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+}
+
+.sucess {
+  background-image: url('https://images4.alphacoders.com/975/975294.jpg');
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+}
+
+.list-group {
+  font-size: 30px;
+  text-align: center;
+}
+
+.mission {
+  text-align: center;
+  font-size: 40px;
+} */
