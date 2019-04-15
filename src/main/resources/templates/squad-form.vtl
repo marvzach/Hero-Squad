@@ -1,0 +1,47 @@
+
+<!-- Card -->
+<div class="card card-cascade wider reverse">
+
+  <!-- Card image -->
+  <div class="view view-cascade overlay">
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100 card-img-top" src="https://images4.alphacoders.com/975/975294.jpg" alt="First slide">
+    </div>
+  </div>
+</div>
+      <div class="mask rgba-white-slight"></div>
+    </a>
+  </div>
+
+  <!-- Card content -->
+  <div class="card-body card-body-cascade text-center">
+
+     <h2 class="card-header squadtitle">Add  squad</h2>
+  <br>
+  <form action="/squads" method="post">
+    <div class="form-group">
+      <label for="name">Squad name</label>
+      <select id="name" name="name"  class="form-control">
+  <option value="Avengers Marvel">Avengers-Marvel</option>
+  <option value="DC">Justice League-DC</option>
+</select>
+    </div>
+
+    <div class="form-group">
+      <label for="size">Squad size</label>
+      <input id="size" name="size" type="number" class="form-control">
+    </div>
+
+    <div class="form-group">
+      <label for="cause">Squad cause</label>
+      <input id="cause" name="cause" type="text" class="form-control">
+    </div>
+
+    <button type="submit" class="btn btn-unique ok">Add Squad</button>
+  </form>
+  </div>
+
+</div>
+<!-- Card -->
